@@ -22,5 +22,17 @@ namespace StudentGradeManager
         {
             Grades.AddRange(grades);
         }
+
+        public double CalculateAverageGrade()
+        {
+            double gradeAverage = 0;
+
+            foreach (var grade in Grades)
+            {
+                gradeAverage += grade;
+            }
+
+            return gradeAverage = gradeAverage / Grades.Count;
+        }
     }
 }
