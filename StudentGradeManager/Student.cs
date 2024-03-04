@@ -8,11 +8,12 @@ namespace StudentGradeManager
 {
     public class Student
     {
-
+        // Student Properties
         public string Name {  get; set; }
         public int ID { get; set; }
         public List<double> Grades { get; set; } = new List<double>();
 
+        // Methods for adding grades and calculating average grade
         public void AddGrade(double grade)
         {
             Grades.Add(grade);
