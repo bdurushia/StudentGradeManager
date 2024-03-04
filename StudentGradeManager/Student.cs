@@ -19,7 +19,7 @@ namespace StudentGradeManager
             Grades.Add(grade);
         }
 
-        public void AddGrade(double[] grades)
+        public void AddGrade(params double[] grades)
         {
             Grades.AddRange(grades);
         }
@@ -34,6 +34,28 @@ namespace StudentGradeManager
             }
 
             return gradeAverage = gradeAverage / Grades.Count;
+        }
+
+        public static void ShowStudentInfo(Student student)
+        {
+            Console.Write($"{student.Name}\t\t{student.ID}\t");
+            
+            // Iterate through the students grades list and print each grade with punctuation
+            for (int i = 0; i < student.Grades.Count; i++)
+            {
+                if (i >= 0 && i < student.Grades.Count -1)
+                {
+                    Console.Write($"{student.Grades[i]}, ");
+                }
+                else
+                {
+                    Console.Write($"{student.Grades[i]}\t");
+                }
+            }
+
+            // Print final grade
+            Console.Write($"{Math.Round(student.CalculateAverageGrade(), 2)}\n");
+
         }
     }
 }

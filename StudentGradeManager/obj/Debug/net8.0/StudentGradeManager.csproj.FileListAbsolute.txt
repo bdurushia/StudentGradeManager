@@ -1,0 +1,15 @@
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\bin\Debug\net8.0\StudentGradeManager.exe
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\bin\Debug\net8.0\StudentGradeManager.deps.json
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\bin\Debug\net8.0\StudentGradeManager.runtimeconfig.json
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\bin\Debug\net8.0\StudentGradeManager.dll
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\bin\Debug\net8.0\StudentGradeManager.pdb
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\StudentGradeManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\StudentGradeManager.AssemblyInfoInputs.cache
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\StudentGradeManager.AssemblyInfo.cs
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\StudentGradeManager.csproj.CoreCompileInputs.cache
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\StudentGradeManager.sourcelink.json
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\StudentGradeManager.dll
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\refint\StudentGradeManager.dll
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\StudentGradeManager.pdb
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\StudentGradeManager.genruntimeconfig.cache
+C:\Users\SK\OneDrive\Desktop\repos\StudentGradeManager\StudentGradeManager\obj\Debug\net8.0\ref\StudentGradeManager.dll
