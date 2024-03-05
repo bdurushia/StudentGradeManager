@@ -34,6 +34,7 @@ students.Add(kent);
 students.Add(brandyn);
 students.Add(alina);
 
+// Add each students grades to their own gradelists
 valarie.AddGrade(98.5);
 valarie.AddGrade(92.7, 90.8, 89.5, 97.5);
 
@@ -53,3 +54,36 @@ foreach (var person in students)
 {
     Student.ShowStudentInfo(person);
 }
+
+var english = new Course()
+{
+    CourseCode = "eng-04",
+    CourseName = "English"
+};
+
+english.EnrollStudent(valarie);
+english.EnrollStudent(kent);
+english.EnrollStudent(valarie); // Checking to make sure logic doesn't allow adding a student twice
+english.EnrollStudent(alina);
+
+var biology = new Course()
+{
+    CourseCode = "bio-02",
+    CourseName = "Biology"
+};
+
+biology.EnrollStudent(valarie);
+biology.EnrollStudent(alina);
+biology.EnrollStudent(brandyn);
+biology.EnrollStudent(alina); // Checking to make sure logic doesn't allow adding a student twice
+
+Console.WriteLine("\nCOURSE NAME\tCOURSE ID\tSTUDENTS ENROLLED");
+Console.WriteLine("------------------------------------------------------------------");
+english.PrintCourseWithStudents();
+biology.PrintCourseWithStudents();
+
+
+//for (int i = 0; i < english.EnrolledStudents.Count; i++)
+//{
+//    Console.WriteLine($"{english.EnrolledStudents[i].Name}");
+//}
